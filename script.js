@@ -1,6 +1,6 @@
-import header from './header.js';
-import footer from './footer.js';
-import main from './main.js';
+import header from './components/header.js';
+import footer from './components/footer.js';
+import main from './components/main.js';
 
 // HEADER //
 const templateHeader = Handlebars.compile(header);

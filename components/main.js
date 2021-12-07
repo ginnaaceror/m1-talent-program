@@ -1,20 +1,20 @@
 const main = `
 <section>
-  <img src="images/banner-image.jpeg" alt="Banner image, Sunset New York." tabindex="0">
+  <img src="assets/banner-image.jpeg" alt="Banner image, Sunset New York." tabindex="0">
 
   <article id="program" tabindex="0">
     <h2>PROGRAM</h2>
-    <img src="images/image1.jpeg" alt="Program" style="max-width:100vh">
+    <img src="assets/image1.jpeg" alt="Program" style="max-width:100vh">
   </article>
 
   <article id="tech" tabindex="0">
     <h2>TECH</h2>
-    <img src="images/image2.jpeg" alt="Tech" style="max-width:100vh">
+    <img src="assets/image2.jpeg" alt="Tech" style="max-width:100vh">
   </article>
 
   <article id="talent" tabindex="0">
     <h2>TALENT</h2>
-    <img src="images/image3.jpeg" alt="Talent" style="max-width:100vh">
+    <img src="assets/image3.jpeg" alt="Talent" style="max-width:100vh">
   </article>
 
   <form>

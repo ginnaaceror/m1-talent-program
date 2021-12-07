@@ -15,7 +15,7 @@ const header = `
       </select>
 
   <div>
-    <img src="images/logo.png" alt="Huge logo" tabindex="0">
+    <img src="assets/logo.png" alt="Huge logo" tabindex="0">
 
     <nav>
       <a href="#program">Program</a>
