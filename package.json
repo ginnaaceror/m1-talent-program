@@ -1,0 +1,22 @@
+{
+  "name": "m1-talent-program",
+  "version": "1.0.0",
+  "description": "Talent Program: Ginna Acero Russi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginnaaceror/m1-talent-program.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginnaaceror/m1-talent-program/issues"
+  },
+  "homepage": "https://github.com/ginnaaceror/m1-talent-program#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
