@@ -19,13 +19,13 @@ const main = `
 
   <form>
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
   
     <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
   
     <label for="email">Enter your email:</label>
-    <input type="email" id="email" name="email"><br><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
   
     <label>Comments:</label><br><br>
     <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea><br>
