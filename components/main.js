@@ -4,17 +4,17 @@ const main = `
 
   <article id="program" tabindex="0">
     <h2>PROGRAM</h2>
-    <img src="assets/image1.jpeg" alt="Program" style="max-width:100vh">
+    <img src="assets/image1.jpeg" alt="Sky with stars" style="max-width:100vh">
   </article>
 
   <article id="tech" tabindex="0">
     <h2>TECH</h2>
-    <img src="assets/image2.jpeg" alt="Tech" style="max-width:100vh">
+    <img src="assets/image2.jpeg" alt="People with cellphones" style="max-width:100vh">
   </article>
 
   <article id="talent" tabindex="0">
     <h2>TALENT</h2>
-    <img src="assets/image3.jpeg" alt="Talent" style="max-width:100vh">
+    <img src="assets/image3.jpeg" alt="Talent people" style="max-width:100vh">
   </article>
 
   <form>
