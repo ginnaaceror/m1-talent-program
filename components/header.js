@@ -5,13 +5,13 @@ const header = `
 
     <div class="top-bar__menu" role="regional-menu">
       <label for="lenguages" role="lenguage-list"><b>Lenguage</b></label>
-        <select class="top-bar__menu--option" id="lenguages" name="lenguages">
+        <select class="top-bar__menu__option" id="lenguages" name="lenguages">
           <option value="0">ES</option>
           <option value="1">EN</option>
         </select>
 
       <label for="currencies" role="currency-list"><b>Currency</b></label>
-        <select class="top-bar__menu--option" id="currencies" name="currencies">
+        <select class="top-bar__menu__option" id="currencies" name="currencies">
           <option value="0">USD</option>
           <option value="1">COP</option>
         </select>
