@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* TOP BAR */
+
+.top-bar {
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.top-bar__text {
+  margin-bottom: 5px;
+}
+
+.top-bar__menu--option {
+  border: none;
+}
+
+.main-menu {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 8px;
+}
+
+.main-menu__logo {
+  /* Top | Right | Bottom | Left */
+  margin: 25px 0 15px;
+  height: 105px;
+  width: 292px;
+}
+
+.main-menu__links {
+  margin-bottom: 15px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.main-menu__links a:link {
+  color: white;
+  font-weight: 100;
+}
+
+.main-menu__links a:hover {
+  font-weight: bold;
+}
+
+.main-menu__links a:visited {
+  color: white;
+}
+
+/* MAIN */
+
+.container-main {
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.main-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-area__content article {
+  padding: 10px 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-area--title {
+  font-size: medium;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.contact-form {
+  display: grid;
+  margin: 50px;
+  padding: 30px;
+  background-color: white;
+}

@@ -1,23 +1,27 @@
 const main = `
-<main>
-  <img src="assets/banner-image.jpeg" alt="Banner image, Sunset New York." role="banner" tabindex="0">
+<main class="container-main">
+  <div class="main-area">
+    <img class="main-area__banner" src="assets/banner-image.jpeg" alt="Banner image, Sunset New York." role="banner" tabindex="0">
 
-  <article id="program">
-    <h2 tabindex="0">PROGRAM</h2>
-    <img src="assets/image1.jpeg" alt="Sky with stars" style="max-width:100vh" tabindex="0">
-  </article>
+    <div class="main-area__content">
+      <article id="program">
+        <h2 class="main-area--title" tabindex="0">PROGRAM</h2>
+        <img src="assets/image1.jpeg" alt="Sky with stars" tabindex="0">
+      </article>
 
-  <article id="tech">
-    <h2 tabindex="0">TECH</h2>
-    <img src="assets/image2.jpeg" alt="People with cellphones" style="max-width:100vh" tabindex="0">
-  </article>
+      <article id="tech">
+        <h2 class="main-area--title" tabindex="0">TECH</h2>
+        <img src="assets/image2.jpeg" alt="People with cellphones" tabindex="0">
+      </article>
 
-  <article id="talent">
-    <h2 tabindex="0">TALENT</h2>
-    <img src="assets/image3.jpeg" alt="Talent people" style="max-width:100vh" tabindex="0">
-  </article>
+      <article id="talent">
+        <h2 class="main-area--title" tabindex="0">TALENT</h2>
+        <img src="assets/image3.jpeg" alt="Talent people" tabindex="0">
+      </article>
+    </div>
+  </div>
 
-  <form role="contact-form">
+  <form class="contact-form" "role="contact-form">
     <label for="name" role="textfield">Name:</label>
     <input id="name" name="name" type="text" placeholder="Enter your name"><br><br>
   
