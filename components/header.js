@@ -4,7 +4,7 @@ const header = `
     <h1 class="top-bar__text" tabindex="0">Make Huge Moves.</h1>
 
     <div class="top-bar__menu" role="regional-menu">
-      <label for="lenguages" role="lenguage-list"><b>Lenguage</b></label>
+      <label for="lenguages" role="lenguage-list"><b>Language</b></label>
         <select class="top-bar__menu__option" id="lenguages" name="lenguages">
           <option value="0">ES</option>
           <option value="1">EN</option>
