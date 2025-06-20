@@ -1,7 +1,7 @@
 :root {
   --black: black;
   --primary: #f06;
-  --white: white;
+  --primary: white;
 }
 
 * {
@@ -53,7 +53,7 @@
 }
 
 .main-menu__links a:link {
-  color: var(--white);
+  color: var(--primary);
   font-weight: 100;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .main-menu__links a:visited {
-  color: var(--white);
+  color: var(--primary);
 }
 
 /* MAIN AREA */
@@ -84,7 +84,7 @@
 }
 
 .main-area__title {
-  color: var(--white);
+  color: var(--primary);
   font-size: 15px;
   letter-spacing: 5px;
   margin: 50px 0 15px;
@@ -97,8 +97,8 @@
   padding-top: 20px;
 }
 
-.contact-form--white {
-  color: var(--white);
+.contact-form--primary {
+  color: var(--primary);
 }
 
 .contact-form input {
@@ -115,7 +115,7 @@
 .contact-form__boton {
   background-color: var(--primary);
   border-color: none;
-  color: var(--white);
+  color: var(--primary);
 }
 
 .footer-container {
